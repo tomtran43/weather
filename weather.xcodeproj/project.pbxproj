@@ -13,6 +13,9 @@
 		195671201E4B122A00CEDB29 /* weather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1956711E1E4B122A00CEDB29 /* weather.xcdatamodeld */; };
 		195671221E4B122A00CEDB29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195671211E4B122A00CEDB29 /* Assets.xcassets */; };
 		195671251E4B122A00CEDB29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195671231E4B122A00CEDB29 /* LaunchScreen.storyboard */; };
+		197A05291E4B220D00A2EA51 /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 197A05261E4B220D00A2EA51 /* Sun.png */; };
+		197A052A1E4B220D00A2EA51 /* Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 197A05271E4B220D00A2EA51 /* Moon.png */; };
+		197A052B1E4B220D00A2EA51 /* Blood.png in Resources */ = {isa = PBXBuildFile; fileRef = 197A05281E4B220D00A2EA51 /* Blood.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		195671211E4B122A00CEDB29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		195671241E4B122A00CEDB29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		195671261E4B122A00CEDB29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		197A05261E4B220D00A2EA51 /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sun.png; sourceTree = "<group>"; };
+		197A05271E4B220D00A2EA51 /* Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moon.png; sourceTree = "<group>"; };
+		197A05281E4B220D00A2EA51 /* Blood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blood.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 		195671161E4B122A00CEDB29 /* weather */ = {
 			isa = PBXGroup;
 			children = (
+				197A05261E4B220D00A2EA51 /* Sun.png */,
+				197A05271E4B220D00A2EA51 /* Moon.png */,
+				197A05281E4B220D00A2EA51 /* Blood.png */,
 				195671171E4B122A00CEDB29 /* AppDelegate.swift */,
 				195671191E4B122A00CEDB29 /* ViewController.swift */,
 				1956711B1E4B122A00CEDB29 /* Main.storyboard */,
@@ -126,7 +135,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				197A052B1E4B220D00A2EA51 /* Blood.png in Resources */,
+				197A05291E4B220D00A2EA51 /* Sun.png in Resources */,
 				195671251E4B122A00CEDB29 /* LaunchScreen.storyboard in Resources */,
+				197A052A1E4B220D00A2EA51 /* Moon.png in Resources */,
 				195671221E4B122A00CEDB29 /* Assets.xcassets in Resources */,
 				1956711D1E4B122A00CEDB29 /* Main.storyboard in Resources */,
 			);
@@ -303,6 +315,7 @@
 				1956712B1E4B122A00CEDB29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
